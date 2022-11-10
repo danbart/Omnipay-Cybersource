@@ -1,0 +1,25 @@
+{
+    "name": "danbart/omnipay-cybersource",
+    "description": "Cybersource driver for the Omnipay PHP payment processing library",
+    "type": "libaray",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Cybersource\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danilo Solórzano",
+            "email": "danilo_solorzano06@hotmail.com"
+        }
+    ],
+    "require": {
+        "omnipay/common": "3",
+        "php": "7.4.9"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "omnipay/tests": "^4.1"
+    }
+}
